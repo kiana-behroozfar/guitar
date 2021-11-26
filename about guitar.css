@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+/* header of website */
+.header-container {
+  background: black;
+  min-height: 200px;
+  width: 100%;
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  flex-flow: column;
+  color: cyan;
+}
+.header {
+ 
+  margin: 10px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.nav{
+  padding: 30px;
+  
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  align-items:center;
+  justify-content: start;
+}
+
+/* @media screen (max-width:320){
+  .header{
+   color: black;
+    font-size: x-small;
+  }
+} */
+.nav-child{
+ padding: 15px;
+ color: cyan;
+}
+.nav-child:hover{
+  background-color: white;
+  font-size: larger;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border-radius: 80px;
+  color: black;
+
+}
+.nav2{
+ margin: 15px;
+ margin-right: 90px;
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-child-2{
+  width: 60px;
+  height: 60px;
+  display: flex;
+  /* align-self: flex-end; */
+  border-radius: 80px;
+}
+.svg-inline--fafa-instagram-square{
+  width: 30px;
+  height: 30px;
+}
+.svg-inline--fafa-youtube{
+  width: 30px;
+  height: 30px;
+}
+.svg-inline--fafa-telegram{
+  width: 30px;
+  height: 30px;
+}
+.svg-inline--fafa-facebook{
+   width: 30px;
+  height: 30px;
+}
+.footer{
+background-color: black;
+width: 100%;
+margin: 5px;
+padding: 15px;
+}
+.footer-child{
+  color: aqua;
+
+  padding: 45px;
+  padding-top: auto;
+  width: 100%;
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+}
+.foot2:hover{
+  background-color: white;
+  font-size: larger;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border-radius: 10px;
+  color: black;
+}
+.footer {
+  
+  display: flex;
+/* align-items: flex-start; */
+}
+.foot{
+  padding: 30px;
+}
+.foot:hover{
+  background: white;
+  border-radius: 80px;
+  
+}
